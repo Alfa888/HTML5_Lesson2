@@ -1,3 +1,10 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {font-family:"Socialico";
+    src:url("fonts/Socialico.eot?") format("eot"),
+    url("fonts/Socialico.woff") format("woff"),
+    url("fonts/Socialico.ttf") format("truetype"),
+    url("fonts/Socialico.svg#Socialico") format("svg");
+    font-weight:normal;font-style:normal;}
 .block {
     width: 1280px;
     margin: 0 auto;
@@ -64,134 +71,135 @@
 .dignityProduct {
     height: 438px;
     background-color: #f5f5f5;
+    padding-top: 50px;
     margin-top: 20px;
 }
-.dignityProduct span {
-    width: 351px;
-    height: 28px;
+.dignityProduct h2 {
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    margin-left: 464px;
-    margin-top: 49px;
-    float: left;
+    text-align: center;
 }
-.dignityProduct div {
-    height: 260px;
-    width: 567px;
-    float: left;
-}
-
-.dignityProduct div span {
-    height: 32px;
-    width: 32px;
+.dignityProduct ul li {
+    list-style: none;
     background-image: url("img/2-layers.png");
-    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    margin-top: 35px;
+    padding-left: 40px;
+    width: calc(45% - 8px);
     float: left;
 }
-.dignityProduct div article {
-    width: 526px;
-    height: 63px;
-    color: #333333;
-    font-family: "Arial MT";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left: 90px;
-    margin-top: -36px;
-    float: left;
+.dignityProduct ul li:nth-child(-n+2) {
+    margin-top: 0;
 }
-.right_dignityProduct {
-    margin-left: 28px;
+.dignityProduct ul li:nth-child(odd) {
+    margin-right: 8px;
+}
+.dignityProduct ul li:nth-child(even) {
+    margin-left: 8px;
 }
 .clr {
     clear: both;
 }
-.block3 {
-    height: 487px;
-}
-.block3 span {
-    width: 138px;
-    height: 22px;
+.scrinshots {
+    font-family: "Arial MT", sans-serif;
     color: #445161;
-    font-family: "Arial MT";
+    padding: 50px;
+}
+.scrinshots h2 {
+    height: 22px;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    margin-top: 51px;
-    margin-left: 571px;
-    float: left;
+    text-align: center;
 }
-.block3 section {
+/*.scrinshots section {
     height: 331px;
     width: 564px;
     float: left;
-}
-.block3 section span {
+}*/
+/*.scrinshots section span {
     height: 150px;
     width: 200px;
     background-color: #445161;
     margin-left: 50px;
     float: left;
-}
-.block3 section article {
+}*/
+.scrinshots article {
     color: #333333;
-    font-family: "Arial MT";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    height: 146px;
-    width: 359px;
-    margin-left: 265px;
-    margin-top: -153px;
+    /*background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: left;*/
+    width: 50%;
+    height: 151px;
+    padding-bottom: 10px;
     float: left;
 }
-.block3 section article header {
-    width: 310px;
+.scrinshots article:nth-child(n+4) {
+    margin-top: 29px;
+}
+.scrinshots article p {
+    padding-left: 210px;
+    text-align: justify;
+    padding-right: 8px;
+}
+.scrinshots article h3 {
+    padding-left: 210px;
+    text-align: center;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+.imgScrinshots {
+    height: 150px;
+    width: 200px;
+    background-image: url("img/bg.jpg");
+    float: left;
+}
+.scrinshots h3 {
     height: 23px;
-    color: #445161;
-    font-family: "Arial MT";
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 15px;
+
 }
-.right_block3 {
+.right_scrinshots {
     margin-left: 26px;
 }
-.block4 {
+.reviews {
     height: 424px;
+    padding: 50px;
     background-color: #f5f5f5;
 }
-.block4 span {
-    width: 111px;
+.reviews h2 {
     height: 22px;
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    margin-top: 51px;
     margin-left: 585px;
     float: left;
 }
-.block4 section {
-    height: 226px;
+.reviews section {
     width: 574px;
     float: left;
 }
-.block4 section span {
+.reviews section span {
     height: 75px;
     width: 75px;
     background-image: url("img/userpic.png");
     background-repeat: no-repeat;
-    margin-left: 50px;
     margin-top: 35px;
     float: left;
 }
-.block4 section article {
+.reviews section blockquote {
     height: 121px;
     width: 483px;
     background-image: url("img/bg_review.png");
@@ -201,14 +209,14 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    margin-left: 141px;
+    margin-left: 91px;
     margin-top: -75px;
     float: left;
 }
-.block4 section article p {
+.reviews section blockquote p {
     margin-left: 27px;
 }
-.block4 section article footer {
+.reviews section blockquote footer {
     width: 67px;
     height: 10px;
     color: #989898;
@@ -218,49 +226,55 @@
     line-height: 18px;
     margin-left: 27px;
 }
-.right_block4 {
+.right_reviews {
     margin-left: 32px;
 }
-.block5 {
+.buy_It_Now {
     height: 656px;
-    width: 1280px;
-    position: relative;
+    width: inherit;
+    /*position: relative;*/
 }
-.block5 span {
-    width: 137px;
+.buy_It_Now h2 {
     height: 28px;
+    width: inherit;
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
     margin-top: 50px;
-    margin-left: 572px;
+    text-align: center;
     float: left;
 }
+.flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
 .f1 {
     width: 300px;
-    height: 306px;
     background-image: url("img/bg.png");
-    position: absolute; bottom: 50px; left: 145px;
+    background-repeat: no-repeat;
+    /*position: absolute; bottom: 50px; left: 145px;*/
 }
 .f2 {
     width: 300px;
-    height: 404px;
     background-image: url("img/bg2.png");
-    position: absolute; bottom: 50px; left: 490px;
+    background-repeat: no-repeat;
+    /*position: absolute; bottom: 50px; left: 490px;*/
 }
 .f3 {
     width: 300px;
-    height: 499px;
     background-image: url("img/bg3.png");
-    position: absolute; bottom: 50px; left: 835px;
+    background-repeat: no-repeat;
+    /*position: absolute; bottom: 50px; left: 835px;*/
 }
-.block5 figure figcaption {
-    width: 38px;
+.buy_It_Now figure figcaption {
     height: 17px;
     color: #ffffff;
-    font-family: "Arial MT";
+    font-family: "Arial MT", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -277,31 +291,30 @@
     margin-top: 17px;
     margin-left: 131px;
 }
-.block5 figure span {
+.buy_It_Now figure div {
     background-image: url("img/bg-price.png");
-    width: 300px;
-    height: 71px;
     color: #445162;
-    font-family: "Arial MT";
+    font-family: "Arial MT", sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 30px;
     margin-left: 0;
     margin-top: 27px;
     text-align: center;
-    margin-bottom: 19px;
+    padding: 20px;
 }
-.block5 figure span p {
+/*.buy_It_Now figure div p {
     margin-top: 18px;
-}
-.block5 ol {
+}*/
+.buy_It_Now ol {
     color: #ffffff;
-    font-family: "Arial MT";
+    font-family: "Arial MT", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    width: inherit;
 }
-.block5 ol li:last-child {
+.buy_It_Now ol li:last-child {
     width: 260px;
     height: 40px;
     background-image: url("img/bg_button.png");
@@ -310,7 +323,7 @@
     margin-left: -19px;
     margin-top: 6px;
     color: #445161;
-    font-family: "Arial - Bold MT";
+    font-family: "Arial - Bold MT", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
@@ -318,29 +331,29 @@
     text-align: center;
     padding-top: 11px;
 }
-.block5 ol li:last-child:hover {
+.buy_It_Now ol li:last-child:hover {
     font-size: 20px;
     font-weight: 700;
 }
 .footer {
     height: 509px;
     background-color: #445162;
+    padding: 0 246px;
 }
 .footer span {
-    width: 117px;
     height: 22px;
     color: #ffffff;
-    font-family: "Arial MT";
+    font-family: "Arial MT", sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
     margin-top: 53px;
-    margin-left: 582px;
+    margin-left: 336px;
     float: left;
 }
 .footer form {
     margin-top: 31px;
-    margin-left: 249px;
+    width: auto;
     float: left;
 }
 .footer form :nth-child(2) {
@@ -368,7 +381,7 @@
     margin-left: 180px;
     background-color: #ffffff;
     color: #445162;
-    font-family: "Arial - Bold MT";
+    font-family: "Arial - Bold MT", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -381,5 +394,99 @@
 .footer address {
     height: 229px;
     width: 240px;
-    margin-left: 250px;
+    /*margin-left: 250px;*/
+    float: right;
+}
+.list {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: none;
+    font-family: "Arial MT", sans-serif;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+._1 {
+    background-image: url("img/skype_icon.png");
+    margin-top: 32px;
+}
+._2 {
+    background-image: url("img/icq_icon.png");
+}
+._3 {
+    background-image: url("img/email_icon.png");
+}
+._4 {
+    background-image: url("img/phone_icon.png");
+}
+.socialicons {
+    font-family:"Socialico", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 25px;
+}
+@media screen and (max-device-width: 768px) /*and (min-device-width: 576px)*/ {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product_name {
+        float: none;
+    }
+    .aboutYourProduct {
+        display: flex;
+        justify-content: space-between;
+    }
+    .dignityProduct ul li {
+        list-style: none;
+        background-image: url("img/2-layers.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 10px;
+        padding-top: 35px;
+        padding-left: 5px;
+        width: calc(48% - 4px);
+        float: left;
+    }
+    .scrinshots {
+        font-family: "Arial MT", sans-serif;
+        color: #445161;
+        padding: 10px;
+        height: 500px;
+    }
+
+    .imgScrinshots {
+        height: 100px;
+        width: 140px;
+        background-image: url("img/bg.jpg");
+        float: none;
+        margin: 5px 250px;
+    }
+    .scrinshots article {
+        width: 50%;
+        height: auto;
+        padding-bottom: 2px;
+        float: left;
+    }
+    .scrinshots article:nth-child(n+4) {
+        margin-top: 9px;
+    }
+    .scrinshots article p {
+        padding-left: 10px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+    .scrinshots article h3 {
+        padding-left: 15px;
+
+        margin-top: -6px;
+        margin-bottom: -6px;
+    }
+    .flex {
+        padding: 0 20px;
+    }
+    
 }
